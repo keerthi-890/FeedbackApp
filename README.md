@@ -65,6 +65,9 @@ Email must be unique during registration
 Feedback requires a rating from 1-5
 JWT token is stored in localStorage
 
+Demo Video
+https://drive.google.com/file/d/1E0gGHlozp0t78YlFJbT-e_Gk64WrKnOT/view?usp=drive_link
+
 License
 
 This project is for educational purposes and internship submission.
