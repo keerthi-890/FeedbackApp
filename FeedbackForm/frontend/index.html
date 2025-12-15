@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <h1>Feedback App</h1>
+
+    <!-- Register -->
+    <div class="form-container" id="register-section">
+      <h2>Register</h2>
+      <input id="name" placeholder="Name" type="text">
+      <input id="email" placeholder="Email" type="email">
+      <input id="password" placeholder="Password" type="password">
+      <button onclick="register()">Register</button>
+    </div>
+
+    <!-- Login -->
+    <div class="form-container" id="login-section">
+      <h2>Login</h2>
+      <input id="loginEmail" placeholder="Email" type="email">
+      <input id="loginPassword" placeholder="Password" type="password">
+      <button onclick="login()">Login</button>
+    </div>
+
+    <!-- Feedback -->
+    <div class="form-container" id="feedback-section">
+      <h2>Submit Feedback</h2>
+      <input id="message" placeholder="Your feedback" type="text">
+      <input id="rating" placeholder="Rating (1-5)" type="number" min="1" max="5">
+      <button onclick="submitFeedback()">Submit Feedback</button>
+      <h3>Feedback List:</h3>
+      <ul id="feedback-list"></ul>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
